@@ -28,4 +28,5 @@ if %winver% == 1 ( set WIN=Windows_10-x86
 
 echo Starting Windows Setup...
 
-Y:\NetBoot\%WIN%\setup.exe
+Y:\%WINPATH%\%WIN%\setup.exe
+
