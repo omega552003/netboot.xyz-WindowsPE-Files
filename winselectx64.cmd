@@ -30,4 +30,5 @@ if %winver% == 1 ( set WIN=Windows_11
 
 echo Starting Windows Setup...
 
-Y:\NetBoot\%WIN%\setup.exe
+Y:\%WINPATH%\%WIN%\setup.exe
+
